@@ -1,0 +1,20 @@
+Cargo.lock
+*.hprof
+.DS_Store
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### VisualStudioCode ###
+.vscode/*
+.history
+bin/
+
+**/*.rs.bk
+
+deps/
+incremental/
