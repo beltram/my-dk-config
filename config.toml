@@ -3,3 +3,7 @@ thread_factor = 42
 addr = 'proxy.ecorp.com'
 [proxies.allsafe]
 addr = 'proxy.allsafe.com'
+[links]
+actions = '{{git_remote_origin}}/actions'
+issues = '{{git_remote_origin}}/issues'
+google = 'https://google.com'
