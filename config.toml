@@ -7,3 +7,8 @@ addr = 'proxy.allsafe.com'
 actions = '{{git_remote_origin}}/actions'
 issues = '{{git_remote_origin}}/issues'
 google = 'https://google.com'
+[initializr]
+from = [
+    'https://github.com/beltram/initializr-rs.git',
+    'https://github.com/beltram/initializr-spring.git',
+]
