@@ -6,6 +6,8 @@ addr = 'proxy.allsafe.com'
 [links]
 actions = '{{git_remote_origin}}/actions'
 issues = '{{git_remote_origin}}/issues'
+releases = '{{git_remote_origin}}/releases'
+tags = '{{git_remote_origin}}/tags'
 google = 'https://google.com'
 [initializr]
 from = [
